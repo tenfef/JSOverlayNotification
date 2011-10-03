@@ -1,6 +1,6 @@
 # JSOverlayNotification
 
-This is a simple project that I threw together to allow an overlay notification at the top of a page    
+This is a simple project that I threw together to allow an overlay notification at the top of a page and allow the user to ignore notifications.    
 https://github.com/tenfef/JSOverlayNotification/
 
 
