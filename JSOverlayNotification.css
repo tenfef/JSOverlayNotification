@@ -1,0 +1,60 @@
+#overlay_notification {
+	background:url(notification_top_bg.png) repeat-x;
+	color:#fff;
+	height:55px;
+	overflow: hidden;
+	display:none;
+	width:100%;
+	position: absolute;
+	left:0;
+	top:0px;	
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+}
+#overlay_notification .notif_close {
+	color:#fff;
+	display:inline-block;
+	padding:1px 5px;
+	margin-left:20px;
+	border:1px solid #fff;
+	cursor:pointer;	
+}
+#overlay_notification h2 {
+	text-shadow:#333 2px 1px 1px;
+	font-weight: bold;
+	color:#fff;
+	margin:11px 0;
+	text-align:center;
+	font-size: 18px;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+
+}
+#overlay_notification .notif_button {
+	padding: 6px 13px;
+	line-height: 1.4;
+	cursor: pointer;
+	text-align: center;
+	color:#fff;	
+	display: inline-block;
+	margin:0;
+	text-decoration: none;
+	border: 1px solid #3ABCD3;
+	background: #29ABE2;
+	font-weight:bold;
+	font-size: 14px;
+	border-radius: 5px;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+}
+#overlay_notification .notif_button {
+	opacity: 0.9;
+}
+#overlay_notification .notif_wrap {
+	position:relative;
+	left:50%;
+	float:left;
+}
+#overlay_notification .notif_cont {
+	position:relative;
+	left:-50%;
+	float:left
+}
